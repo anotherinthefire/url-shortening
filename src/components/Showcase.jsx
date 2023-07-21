@@ -4,8 +4,8 @@ export default function Showcase() {
   return (
     <>
       <section className="py-10 lg:py-20">
-        <div className="max-width grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-10 md:place-items-center">
-          <article className="text-center md:text-left">
+        <div className="max-width grid grid-cols-1 gap-5 md:grid-cols-2 grid-rows-2 md:grid-rows-1 md:gap-10 md:place-items-center">
+          <article className="text-center md:text-left row-start-2 md:row-start-1">
             <h1 className="text-5xl lg:text-6xl mb-5 font-bold text-slate-800">
               More than just shorter links
             </h1>
@@ -16,7 +16,7 @@ export default function Showcase() {
             <button className="btn-cta rounded-full">Get Started</button>
           </article>
 
-          <article>
+          <article className="row-start-1">
             <img src={showcase} alt="Shortly" />
           </article>
         </div>

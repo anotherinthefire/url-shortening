@@ -54,7 +54,7 @@ export default function Shortener() {
       <section className="max-width h-32 relative rounded-lg bg-shorty">
         <picture>
           <source media="(min-width: 768px)" srcSet={desktop} />
-          <img src={mobile} alt="shorten" className="h-32 w-full rounded-lg"/>
+          <img src={mobile} alt="shorten" className="h-32 w-full rounded-lg" />
         </picture>
 
         <form className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5" onSubmit={handleSubmit}>

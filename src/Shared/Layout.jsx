@@ -11,6 +11,7 @@ import ex from "../assets/ex.svg"
 
 const Layout = () => {
     const [isOpen, setIsOpen] = useState(false)
+    
     return (
         <>
             <header className="header max-width py-5">
